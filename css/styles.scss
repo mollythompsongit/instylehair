@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
+// Custom Colours
+$pink: #ce66a2;
+$lightpink: #FFD4E9;
+$grey: #F2F2F2;
+
+// Mixins
+@mixin herototop {
+    z-index: -1;
+    margin-top: -30%;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+}
+
+// NAV SECTION 
+.nav-logo-container {
+    width: 25%;
+    height: auto;
+    padding: 10px;
+}
+
+.nav-logo {
+    width: 100%;
+    height: auto;
+}
+
+.nav-hamburger-container {
+    width: 75%;
+    height: auto;
+    text-align: right;
+    color: black;
+}
+
+.navbar {
+    background-color: transparent !important;
+    max-height: 20%;
+    z-index: 1002;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-nav {
+    padding-top: 80px;
+}
+
+.nav-link {
+    font-family: 'Italiana', serif;
+    color: #2b2b2b !important;
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+.navbar-collapse {
+    opacity: 1;
+    width: 100vw !important;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    position: absolute;
+    background-color: $lightpink;
+}
+
+.hamburger-open {
+    right: 12px;
+    top: 35px;
+    position: absolute;
+}
+
+// HERO
+
+.hero-image-container {
+    visibility: hidden
+}
+
+.hero-container {
+    @include herototop();
+    background-image: url("../img/heromobile.png");
+    padding-top: 40%;
+}
+
+.hero-title-container {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.hero-title {
+    font-family: 'Italiana', serif;
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+}
+
+.hero-description-container {
+    width: 100%;
+    height: auto;
+    padding-top: 2%;
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.hero-description {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.hero-button-container {
+    width: 100%;
+    height: auto;
+    padding: 8%;
+    padding-top: 2%;
+    background-color: transparent;
+}
+
+.hero-button {
+    background-color: $pink;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    padding: 4px 15px;
+    cursor: pointer;
+}
+
+.hero-button i {
+    padding-left: 5px;
+}
+
+// ICON BOXES 
+.icon-boxes-container {
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    padding-left: 8%;
+    padding-right: 8%;
+    margin-bottom: 20px;
+}
+
+.icon-text-container {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 242, 251);
+    border: 0.5px solid $lightpink;
+    border-radius: 2px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    box-shadow: 0px 0px 8px 1px rgba(255, 212, 233, 0.75);
+    -webkit-box-shadow: 0px 0px 8px 1px rgba(255, 212, 233, 0.75);
+    -moz-box-shadow: 0px 0px 8px 1px rgba(255, 212, 233, 0.75);
+}
+
+.text-container {
+    width: 70%;
+    height: 60px;
+    line-height: 60px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    color: $pink;
+}
+
+.text-container p {
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.icon-container {
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+    color: $pink;
+    font-size: 30px;
+    padding-right: 15px;
+}
+
+// ABOUT 
+
+.about-container {
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+}
+
+.h2-headings {
+    font-family: 'Italiana', serif;
+    font-size: 24px;
+    color: black;
+    font-weight: 500;
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+}
+
+.about-container p {
+    font-size: 17px;
+    line-height: 22px;
+    width: 100%;
+    height: auto;
+    color: rgb(37, 37, 37);
+}
+
+.about-container img {
+    float: right;
+    width: 40%;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+}
+
+// FOOTER
+.footer-container {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.footer-container p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-contactlinks-box {
+    width: 100%;
+    height: auto;
+    font-family: 'Italiana', serif;
+}
+
+.footer-contactlinks-box p {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    font-size: 24px;
+}
+
+.footer-contactlinks-box a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer-contacticons-box {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.footer-contacticons-box a {
+    margin: 0px 25px;
+    font-size: 35px;
+    cursor: pointer;
+    color: $pink;
+}
+
+// PRICELIST PAGE -----------------------------------------
+
+.pricelist-hero-container {
+    @include herototop();
+    background-image: url("../img/pricelist.png");
+    padding-top: 0%;
+    height: 280px;
+}
+
+.pages-hero-title {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: 'Italiana', serif;
+    font-size: 50px;
+    color: $pink;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 140px;
+}
+
+.pricelist-container {
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+}
+
+.pricelist-container p {
+    font-size: 17px;
+    line-height: 22px;
+    width: 100%;
+    height: auto;
+    color: rgb(37, 37, 37);
+}
+
+
+// CONTACT PAGE -----------------------------------------
+
+.contact-hero-container {
+    @include herototop();
+    background-image: url("../img/contact.png");
+    padding-top: 0%;
+    height: 280px;
+}
+
+.contact-image-container {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+.contact-image-container img {
+    width: 80%;
+    height: auto;
+    margin: 0 auto
+}
+
+.contact-button-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.contact-button {
+    background-color: $pink;
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    padding: 8px 15px;
+    cursor: pointer;
+    margin-right: 10px
+}
+
+// RETAIL PAGE -----------------------------------------
+
+.retail-hero-container {
+    @include herototop();
+    background-image: url("../img/retailproducts.png");
+    padding-top: 0%;
+    height: 280px;
+}
+
+.retail-container {
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 20px;
+}
+
+.retail-container p {
+    font-size: 17px;
+    line-height: 22px;
+    width: 100%;
+    height: auto;
+    color: rgb(37, 37, 37);
+}
+
+.retail-container a {
+    color: $pink;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.retail-image {
+    width: 100%;
+    height: auto;
+}
+
+// TESTIMONIAL PAGE -----------------------------------------
+
+.testimonials-hero-container {
+    @include herototop();
+    background-image: url("../img/testimonial.png");
+    padding-top: 0%;
+    height: 280px;
+}
+
+.testimonial-container {
+    width: 100%;
+    height: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.testimonial-box {
+    width: 100%;
+    height: auto;
+    background-color: #FFF2FB;
+    border-radius: 30px;
+    border: 1px solid $pink;
+}
+
+.testimonial-box:nth-child(1) {
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.testimonial-image-box {
+    width: 100%;
+    height: auto;
+    z-index: 99;
+    text-align: center;
+}
+
+.testimonial-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    margin-top: -40px;
+    border: 1px solid $pink;
+}
+
+.testimonial-text-box {
+    width: 100%;
+    height: auto;
+    padding: 5px 20px;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.testimonial-text-box h2 {
+    font-family: 'Italiana', serif;
+    font-size: 20px;
+    color: $pink;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+// media queries
+@import "./modules/tabletstyles";
+@import "./modules/laptopsmallstyles";
+@import "./modules/laptoplargestyles";

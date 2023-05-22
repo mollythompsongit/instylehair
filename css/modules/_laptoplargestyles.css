@@ -1,0 +1,133 @@
+@media screen and (min-width: 1440px) {
+  .nav-logo {
+    width: 60%;
+  }
+  .hero-title {
+    font-size: 50px;
+  }
+  .hero-description-container {
+    padding-right: 40%;
+  }
+  .hero-description {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .hero-button {
+    font-size: 24px;
+  }
+  .icon-boxes-container {
+    padding-top: 55px;
+    margin-bottom: 55px;
+    gap: 30px;
+  }
+  .text-container {
+    width: 80%;
+    height: 82px;
+    line-height: 60px;
+    padding: 20px 18px;
+    font-size: 24px;
+  }
+  .icon-container {
+    width: 20%;
+    padding: 10px;
+    font-size: 40px;
+    margin-right: 16px;
+    margin-top: 3px;
+  }
+  .h2-headings {
+    font-size: 40px;
+  }
+  .about-container p {
+    padding-top: 10px;
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .footer-container {
+    justify-content: center;
+    padding-bottom: 3%;
+  }
+  .footer-container p {
+    font-size: 22px;
+    width: 20%;
+    text-align: right;
+  }
+  .footer-contactlinks-box {
+    width: 40%;
+    display: flex;
+  }
+  .footer-contactlinks-box p {
+    text-align: center;
+    font-size: 24px !important;
+    width: 50%;
+  }
+  .footer-contacticons-box {
+    width: 20%;
+  }
+  .footer-contacticons-box a {
+    font-size: 35px;
+    margin: 0px 25px;
+    margin-top: -6px;
+  }
+  .pricelist-hero-container {
+    height: 650px;
+  }
+  .pages-hero-title {
+    font-size: 65px;
+    padding-top: 450px;
+  }
+  .pricelist-container p {
+    font-size: 24px;
+    line-height: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .contact-hero-container {
+    height: 650px;
+  }
+  .contact-hero-title {
+    font-size: 65px;
+    padding-top: 450px;
+  }
+  .contact-button {
+    font-size: 24px;
+    padding: 12px 25px;
+  }
+  .contact-image-container img {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .retail-hero-container {
+    height: 650px;
+  }
+  .retail-hero-title {
+    font-size: 65px;
+    padding-top: 450px;
+  }
+  .retail-container {
+    padding-bottom: 40px;
+    padding-top: 50px;
+  }
+  .retail-container p {
+    font-size: 24px;
+    line-height: 35px;
+  }
+  .retail-image {
+    width: 70%;
+  }
+  .testimonials-hero-container {
+    height: 650px;
+  }
+  .testimonial-hero-title {
+    font-size: 65px;
+    padding-top: 450px;
+  }
+  .testimonial-text-box h2 {
+    font-size: 40px;
+  }
+  .testimonial-text-box {
+    padding: 10px 32px;
+    font-size: 22px;
+    line-height: 35px;
+  }
+}

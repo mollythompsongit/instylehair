@@ -1,0 +1,90 @@
+@media screen and (min-width: 1024px) {
+  .nav-logo {
+    width: 80%;
+    margin-left: 20px;
+  }
+  .nav-hamburger-container {
+    width: 75%;
+    margin-right: 40px;
+    margin-top: 0px;
+  }
+  .hamburger-open {
+    right: 50px;
+    top: 80px;
+  }
+  .nav-link {
+    font-size: 40px;
+    margin-top: 50px;
+  }
+  .hero-title {
+    font-size: 40px;
+  }
+  .hero-description {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .hero-button {
+    font-size: 20px;
+    padding: 10px 20px;
+  }
+  .icon-boxes-container {
+    padding-top: 45px;
+    margin-bottom: 45px;
+    gap: 30px;
+  }
+  .icon-text-container {
+    width: 35%;
+  }
+  .icon-container {
+    width: 20%;
+    padding: 10px;
+    font-size: 35px;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+  .text-container {
+    width: 80%;
+    height: 92px;
+    line-height: 60px;
+    padding: 20px 10px;
+    font-size: 20px;
+  }
+  .h2-headings {
+    font-size: 35px;
+  }
+  .about-container {
+    padding-bottom: 40px;
+  }
+  .about-container p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .about-container img {
+    margin-bottom: 10px;
+  }
+  .footer-container {
+    display: flex;
+  }
+  .footer-container p {
+    font-size: 18px;
+    width: 30%;
+    text-align: right;
+  }
+  .footer-contactlinks-box {
+    width: 50%;
+    display: flex;
+  }
+  .footer-contactlinks-box p {
+    text-align: center;
+    font-size: 22px !important;
+    width: 50%;
+  }
+  .footer-contacticons-box {
+    width: 20%;
+  }
+  .footer-contacticons-box a {
+    font-size: 32px;
+    margin: 0px 15px;
+    margin-top: -7px;
+  }
+}
